@@ -16,3 +16,92 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+
+  max-width: 1200px;
+  list-style-type: none;
+}
+
+.gallery-image {
+  width: 360px;
+  height: auto;
+}
+
+body .sl-overlay { 
+  background-color: rgba(0, 0, 0, 1); 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+  height: 296px;
+  margin: 0 auto;
+  border-radius: 8px;
+top: -424px;
+left: 2312px;
+padding: 24px 0px 0px 0px;
+gap: 16px;
+opacity: 0px;
+
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-bottom: 0;
+  width: 360px;
+  border-radius: 8px;
+  padding: 0 24px 0 24px;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  width: 360px;
+  border-radius: 8px;
+  height: 112px;
+  padding: 0 24px 0 24px;
+}
+
+button {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 95px;
+height: 40px;
+margin: 8px 16px 8px 24px;
+gap: 10px;
+border-radius: 8px;
+opacity: 0px;
+background-color: rgba(78, 117, 255, 1);
+color: white;
+border: none;
+}
+
+.email, .message {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.04em;
+text-align: left;
+color: rgba(46, 47, 66, 1);
+
+}
