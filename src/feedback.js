@@ -33,6 +33,7 @@ form.addEventListener("input", () => {
             formData[element.name] = element.value;
         }
     });
+    console.log(formData);
 
     //zapisywanie danych w local storage jako ciąg tekstowy
     localStorage.setItem(localStorageKey, JSON.stringify(formData));
